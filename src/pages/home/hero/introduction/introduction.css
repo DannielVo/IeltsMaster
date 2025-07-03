@@ -1,0 +1,54 @@
+.introduction {
+  max-width: 800px;
+  margin: 0 auto 70px;
+}
+
+.introduction h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 40px;
+}
+
+.text-dark {
+  color: var(--itemFirst-color);
+}
+
+.text-highlight {
+  color: #b7791f;
+}
+
+.paragraphs {
+  text-align: left;
+}
+
+.paragraphs p {
+  font-size: 18px;
+  color: var(--itemSecond-color);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
