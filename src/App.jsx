@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import Hero from "./pages/home/hero/Hero";
 import Recent from "./pages/home/recent/Recent";
 import PopularDocuments from "./pages/home/popularDocuments/PopularDocuments";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero></Hero>
       <Recent></Recent>
       <PopularDocuments></PopularDocuments>
+      <Footer></Footer>
     </>
   );
 };
