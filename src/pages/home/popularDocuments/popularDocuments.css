@@ -1,0 +1,55 @@
+.document-box {
+  width: 380px;
+  height: 150px;
+  background-color: var(--main-background);
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  border: 2px solid lightgray;
+  cursor: pointer;
+}
+
+.document-box:hover {
+  border-bottom: 3px solid var(--primary-hover);
+}
+
+.doc-container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.document-title {
+  color: var(--itemFirst-color);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.document-content {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}

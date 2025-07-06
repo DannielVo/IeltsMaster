@@ -1,0 +1,48 @@
+.popular-documents {
+  background-color: var(--third-background);
+  /* padding: 50px 150px; */
+  padding-block: 50px;
+}
+
+.popular-documents h2 {
+  color: var(--itemFirst-color);
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.document-listBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .document-listBoxes {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}
