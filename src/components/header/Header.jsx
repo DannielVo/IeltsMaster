@@ -23,7 +23,7 @@ const Header = () => {
             <a href="#">General</a>
             <a href="#">Sign in</a>
             <button type="button" ref={headerBarsRef} onClick={toggleMobileNav}>
-              <i class="bx  bx-menu"></i>
+              <i className="bx  bx-menu"></i>
             </button>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Header = () => {
         </nav>
 
         <button type="button" onClick={toggleMobileNav}>
-          <i class="bx  bx-x"></i>
+          <i className="bx  bx-x"></i>
         </button>
       </div>
     </>
