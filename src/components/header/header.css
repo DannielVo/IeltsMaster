@@ -11,6 +11,10 @@ header {
   align-items: center;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 .logo img {
   height: 65px;
 }
@@ -23,6 +27,7 @@ header {
   font-weight: 500;
   transition: color 0.3s;
   display: none;
+  cursor: pointer;
 }
 
 .nav-right a:hover {
@@ -66,6 +71,7 @@ header {
   text-decoration: none;
   font-size: 22px;
   color: var(--itemFirst-color);
+  cursor: pointer;
 }
 
 .mobile-header button {

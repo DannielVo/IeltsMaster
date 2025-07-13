@@ -2,17 +2,20 @@ import React from "react";
 import "./header.css";
 import { assets } from "../../assets/asset";
 import useMobileNav from "../../hooks/useMobileNav";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const { isMobileNavOpen, toggleMobileNav, mobileNavRef, headerBarsRef } =
     useMobileNav();
+
+  const navigate = useNavigate();
 
   return (
     <>
       <header>
         <div className="header-container">
           <div className="nav-left">
-            <a href="home.html" className="logo">
+            <a onClick={() => navigate("/")} className="logo">
               <img src={assets.logo} alt="Logo" />
             </a>
           </div>
@@ -21,7 +24,7 @@ const Header = () => {
             <a href="#">Flashcards</a>
             <a href="#">Academic</a>
             <a href="#">General</a>
-            <a href="#">Sign in</a>
+            <a onClick={() => navigate("/login")}>Sign in</a>
             <button type="button" ref={headerBarsRef} onClick={toggleMobileNav}>
               <i className="bx  bx-menu"></i>
             </button>
@@ -34,23 +37,19 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              {" "}
               <a href="#">Flashcards</a>
             </li>
 
             <li>
-              {" "}
               <a href="#">Academic</a>
             </li>
 
             <li>
-              {" "}
               <a href="#">General</a>
             </li>
 
             <li>
-              {" "}
-              <a href="#">Sign in</a>
+              <a onClick={() => navigate("/login")}>Sign in</a>
             </li>
           </ul>
         </nav>
