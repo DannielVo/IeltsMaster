@@ -32,7 +32,10 @@ const Login = () => {
                 </label>
               </div>
 
-              <a href="#" className="forgot-password">
+              <a
+                onClick={() => navigate("/forgot-password")}
+                className="forgot-password"
+              >
                 Forgot password?
               </a>
             </div>

@@ -55,6 +55,10 @@
   margin-bottom: 15px;
 }
 
+.remember-forgot a {
+  cursor: pointer;
+}
+
 .remember-check input {
   margin-right: 8px;
 }

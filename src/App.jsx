@@ -8,6 +8,7 @@ import Login from "./pages/login/Login";
 import SignUp from "./pages/signUp/SignUp";
 import { Route, Routes } from "react-router-dom";
 import SettingPage from "./pages/SettingPage";
+import NotFound from "./pages/404/NotFound";
 
 const App = () => {
   const settingPages = [
@@ -19,6 +20,11 @@ const App = () => {
     {
       path: "/signup",
       component: <SignUp></SignUp>,
+    },
+
+    {
+      path: "*",
+      component: <NotFound></NotFound>,
     },
   ];
 
@@ -37,6 +43,7 @@ const App = () => {
             </>
           }
         ></Route>
+
         {settingPages.map((item, index) => (
           <Route
             key={item.path}
@@ -44,6 +51,8 @@ const App = () => {
             element={<SettingPage>{item.component}</SettingPage>}
           ></Route>
         ))}
+
+        {/* <Route path="*" element={<NotFound></NotFound>}></Route> */}
       </Routes>
     </>
   );

@@ -46,6 +46,7 @@ footer {
 .footer-info ul li a {
   color: var(--itemFirst-color);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .footer-info ul li a:hover {

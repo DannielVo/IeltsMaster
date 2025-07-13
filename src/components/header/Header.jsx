@@ -21,9 +21,9 @@ const Header = () => {
           </div>
 
           <div className="nav-right">
-            <a href="#">Flashcards</a>
-            <a href="#">Academic</a>
-            <a href="#">General</a>
+            <a onClick={() => navigate("/flashcards")}>Flashcards</a>
+            <a onClick={() => navigate("/academic")}>Academic</a>
+            <a onClick={() => navigate("/general")}>General</a>
             <a onClick={() => navigate("/login")}>Sign in</a>
             <button type="button" ref={headerBarsRef} onClick={toggleMobileNav}>
               <i className="bx  bx-menu"></i>
@@ -37,15 +37,15 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href="#">Flashcards</a>
+              <a onClick={() => navigate("/flashcards")}>Flashcards</a>
             </li>
 
             <li>
-              <a href="#">Academic</a>
+              <a onClick={() => navigate("/academic")}>Academic</a>
             </li>
 
             <li>
-              <a href="#">General</a>
+              <a onClick={() => navigate("/general")}>General</a>
             </li>
 
             <li>

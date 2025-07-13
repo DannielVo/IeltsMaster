@@ -1,8 +1,11 @@
 import React from "react";
 import "./footer.css";
 import { assets } from "../../assets/asset";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
   return (
     <footer className="left-right">
       <div className="footer-content">
@@ -20,13 +23,13 @@ const Footer = () => {
             <h4>About us</h4>
             <ul>
               <li>
-                <a href="">About</a>
+                <a onClick={() => navigate("/about")}>About</a>
               </li>
               <li>
-                <a href="">Our Journey</a>
+                <a onClick={() => navigate("/journey")}>Our Journey</a>
               </li>
               <li>
-                <a href="">Contact Us</a>
+                <a onClick={() => navigate("/contact")}>Contact Us</a>
               </li>
             </ul>
           </div>
@@ -36,10 +39,12 @@ const Footer = () => {
             <h4>Resources</h4>
             <ul>
               <li>
-                <a href="">Study Materials</a>
+                <a onClick={() => navigate("/studymaterials")}>
+                  Study Materials
+                </a>
               </li>
               <li>
-                <a href="">Test Library</a>
+                <a onClick={() => navigate("/tests")}>Test Library</a>
               </li>
             </ul>
           </div>
@@ -49,10 +54,12 @@ const Footer = () => {
             <h4>Terms & Policies</h4>
             <ul>
               <li>
-                <a href="">Terms of Service</a>
+                <a onClick={() => navigate("/terms-of-service")}>
+                  Terms of Service
+                </a>
               </li>
               <li>
-                <a href="">Privacy Policy</a>
+                <a onClick={() => navigate("/privacy")}>Privacy Policy</a>
               </li>
             </ul>
           </div>
