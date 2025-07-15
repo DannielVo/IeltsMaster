@@ -15,14 +15,14 @@ export const FEATURES = [
   },
 
   {
-    icon: "bx-price-tag",
+    icon: "bx-book-open",
     title: "A Library of Resources — From Basic to Advanced",
     content:
       "Access quality English learning materials across all levels: grammar tips, vocabulary lists, and writing samples — all organized for your progress.",
   },
 
   {
-    icon: "bx-book-open",
+    icon: "bx-price-tag",
     title: "Practice Smarter with Flashcards",
     content:
       "Use our built-in flashcards — or create your own — to memorize vocabulary, grammar rules, or even speaking answers. Your personal learning toolkit, always within reach.",
