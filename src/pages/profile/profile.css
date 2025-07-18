@@ -1,0 +1,117 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-block: 50px;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--secondary-background);
+}
+
+.profile-container {
+  width: 500px;
+  height: fit-content;
+  background-color: var(--main-background);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+}
+
+.avatar-wrapper {
+  margin-bottom: 30px;
+}
+
+.avatar-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid lightgray;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.avatar-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+
+.avatar-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.avatar-control i {
+  font-size: 20px;
+}
+
+.info-group {
+  margin-bottom: 20px;
+}
+
+.info-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.info-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.info-group input:focus {
+  outline: none;
+  border: 2px solid var(--primary-hover);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.infoUpdate-btn {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  color: var(--main-background);
+  background: var(--primary-color);
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.infoUpdate-btn:hover {
+  background: var(--primary-hover);
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+}

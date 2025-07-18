@@ -1,9 +1,11 @@
 import logo from "./logo.png";
 import logoFooter from "./logo_footer.png";
+import profileLogo from "./profileIcon.png";
 
 export const assets = {
   logo,
   logoFooter,
+  profileLogo,
 };
 
 export const FEATURES = [
