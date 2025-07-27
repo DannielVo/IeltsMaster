@@ -9,6 +9,13 @@
   flex-wrap: wrap;
 }
 
+.feature-left,
+.feature-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
 .features-review h2 {
   font-size: 26px;
   color: var(--itemFirst-color);
@@ -22,6 +29,7 @@
   text-align: left;
   gap: 30px;
   margin-bottom: 40px;
+  flex: 1;
 }
 
 .feature-icon {

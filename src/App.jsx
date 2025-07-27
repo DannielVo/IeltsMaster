@@ -10,6 +10,7 @@ import { Route, Routes } from "react-router-dom";
 import SettingPage from "./pages/SettingPage";
 import NotFound from "./pages/404/NotFound";
 import Profile from "./pages/profile/Profile";
+import IntroductionPg from "./pages/introductionPg/IntroductionPg";
 
 const App = () => {
   const settingPages = [
@@ -31,6 +32,16 @@ const App = () => {
     {
       path: "/profile",
       component: <Profile></Profile>,
+    },
+
+    {
+      path: "/academic",
+      component: <IntroductionPg></IntroductionPg>,
+    },
+
+    {
+      path: "/general",
+      component: <IntroductionPg isAcademic={false}></IntroductionPg>,
     },
   ];
 
