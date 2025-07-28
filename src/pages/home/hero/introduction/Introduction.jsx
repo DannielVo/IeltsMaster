@@ -23,13 +23,13 @@ const Introduction = () => {
 
         <p>
           At the heart of success in IELTS are two things: effective methods and
-          consistent effort. That’s why IELTS Master was built — to give
+          consistent effort. That’s why IELTS Master was built - to give
           learners a structured, reliable, and motivating environment to grow
           every single day. Start by changing the way you think, the way you
           practice, and the way you learn IELTS.
         </p>
 
-        <p>Every effort will be rewarded — when you learn the right way.</p>
+        <p>Every effort will be rewarded - when you learn the right way.</p>
       </div>
     </div>
   );
