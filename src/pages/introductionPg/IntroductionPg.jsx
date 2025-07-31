@@ -37,13 +37,12 @@ const IntroductionPg = ({ isAcademic = true }) => {
 
           {!isAcademic && (
             <>
-              <p>General</p>
-
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate tempora excepturi dolores aliquid possimus modi
-                incidunt magnam, sit rerum labore aliquam vitae accusantium, non
-                sunt porro a culpa officia distinctio.
+                IELTS General Training is for people who wish to live and work
+                abroad in an English-speaking country. It focuses mainly on
+                assessing a person’s proficiency, confidence and comfort when
+                communicating in English in daily situations that you are likely
+                to encounter in a native English-speaking environment.​
               </p>
             </>
           )}
@@ -51,9 +50,9 @@ const IntroductionPg = ({ isAcademic = true }) => {
       </section>
 
       <section className="intro-details">
-        <h2 className="details-title">{`What is the IELTS ${
+        <h2 className="details-title">{`The IELTS ${
           isAcademic ? "Academic" : "General"
-        } test like?`}</h2>
+        } test format`}</h2>
         <div className="listening details-element">
           <h3>Listening</h3>
           <ul>
