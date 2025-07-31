@@ -1,7 +1,11 @@
 import React from "react";
 import "./introductionPg.css";
+import SkillSection from "../../components/SkillSection/SkillSection";
+import { INTRO_DETAILS } from "../../assets/asset";
 
 const IntroductionPg = ({ isAcademic = true }) => {
+  const data = isAcademic ? INTRO_DETAILS.academic : INTRO_DETAILS.general;
+
   return (
     <main className="intro-container">
       <section className="menu-wrapper">
@@ -53,7 +57,27 @@ const IntroductionPg = ({ isAcademic = true }) => {
         <h2 className="details-title">{`The IELTS ${
           isAcademic ? "Academic" : "General"
         } test format`}</h2>
-        <div className="listening details-element">
+
+        <SkillSection
+          title={data.listening.title}
+          items={data.listening.items}
+        ></SkillSection>
+
+        <SkillSection
+          title={data.reading.title}
+          items={data.reading.items}
+        ></SkillSection>
+
+        <SkillSection
+          title={data.writing.title}
+          items={data.writing.items}
+        ></SkillSection>
+
+        <SkillSection
+          title={data.speaking.title}
+          items={data.speaking.items}
+        ></SkillSection>
+        {/* <div className="listening details-element">
           <h3>Listening</h3>
           <ul>
             <li>Format: 4 sections, 40 questions, 30 minutes</li>
@@ -101,7 +125,7 @@ const IntroductionPg = ({ isAcademic = true }) => {
 
         <div className="writing"></div>
 
-        <div className="speaking"></div>
+        <div className="speaking"></div> */}
       </section>
     </main>
   );
