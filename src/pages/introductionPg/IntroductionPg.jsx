@@ -77,55 +77,6 @@ const IntroductionPg = ({ isAcademic = true }) => {
           title={data.speaking.title}
           items={data.speaking.items}
         ></SkillSection>
-        {/* <div className="listening details-element">
-          <h3>Listening</h3>
-          <ul>
-            <li>Format: 4 sections, 40 questions, 30 minutes</li>
-            <li>
-              Section 1: A conversation between two people set in an everyday
-              social context.
-            </li>
-            <li>
-              Section 1: A conversation between two people set in an everyday
-              social context.
-            </li>
-            <li>
-              Section 1: A conversation between two people set in an everyday
-              social context.
-            </li>
-            <li>
-              Section 1: A conversation between two people set in an everyday
-              social context.
-            </li>
-          </ul>
-        </div>
-
-        <div className="reading">
-          <h3>Reading</h3>
-          <ul>
-            <li>Format: 4 sections, 40 questions, 30 minutes</li>
-            <li>
-              Section 1: A conversation between two people set in an everyday
-              social context.
-            </li>
-            <li>
-              Section 1: A conversation between two people set in an everyday
-              social context.
-            </li>
-            <li>
-              Section 1: A conversation between two people set in an everyday
-              social context.
-            </li>
-            <li>
-              Section 1: A conversation between two people set in an everyday
-              social context.
-            </li>
-          </ul>
-        </div>
-
-        <div className="writing"></div>
-
-        <div className="speaking"></div> */}
       </section>
     </main>
   );

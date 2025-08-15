@@ -11,6 +11,7 @@ import SettingPage from "./pages/SettingPage";
 import NotFound from "./pages/404/NotFound";
 import Profile from "./pages/profile/Profile";
 import IntroductionPg from "./pages/introductionPg/IntroductionPg";
+import ListPg from "./pages/listPg/ListPg";
 
 const App = () => {
   const settingPages = [
@@ -42,6 +43,11 @@ const App = () => {
     {
       path: "/general",
       component: <IntroductionPg isAcademic={false}></IntroductionPg>,
+    },
+
+    {
+      path: "/list",
+      component: <ListPg></ListPg>,
     },
   ];
 

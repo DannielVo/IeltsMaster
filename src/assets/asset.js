@@ -1,11 +1,13 @@
 import logo from "./logo.png";
 import logoFooter from "./logo_footer.png";
 import profileLogo from "./profileIcon.png";
+import testImg from "./test_img.png";
 
 export const assets = {
   logo,
   logoFooter,
   profileLogo,
+  testImg,
 };
 
 export const FEATURES = [
